@@ -1,0 +1,5 @@
+<launch>
+  	<node name="publisher" pkg="programming_exercise" type="publisher.py"  />
+    <node name="verify" pkg="programming_exercise" type="verify.py" output="screen" />
+    <node name="listener" pkg="programming_exercise" type="listener.py" />
+</launch>
